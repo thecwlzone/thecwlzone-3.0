@@ -4,4 +4,5 @@
 .sass-cache
 .ruby-version
 .ruby-gemset
+README.cwl
 build/
