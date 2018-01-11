@@ -1,7 +1,21 @@
 ---
 title: About
 ---
+%div.container
+  %h1
+    About
+  %div
+    %h6.font-weight-light
+      About
+    %a.badge.badge-info{ "data-toggle": "collapse", "href": "#about-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+      read more/less...
 
-%h1
-  About
+  %div.w-75.mx-auto
+    %div.collapse#about-text
+      %div.card.card-body.bg-light.border-light
+        %h3.card-feature About!
+        %p.text-justify
+          = lorem.sentences 5
+        %p.text-justify
+          = lorem.sentences 14
 
