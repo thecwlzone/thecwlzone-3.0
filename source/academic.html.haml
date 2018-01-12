@@ -2,18 +2,62 @@
 title: Academic
 ---
 %div.container
-  %div
-    %p.font-weight-bold
-      Academic...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#academic-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
-        read more/less...
+  %div.w-75.mx-auto
+    %h6 Alma Maters
+
+    %p
+      Doctor of Computer Science
+      = link_to "Colorado Technical University",
+        "https://www.coloradotech.edu/colorado-springs",
+        target: "_blank"
+      Colorado Springs, Colorado
+
+    %p
+      Master of Science, Computer Science
+      = link_to "Colorado Technical University",
+        "https://www.coloradotech.edu/colorado-springs",
+        target: "_blank"
+      Colorado Springs, Colorado
+
+    %p
+      Bachelor of Science, Electrical Engineering
+      = link_to "Northeastern University",
+        "http://www.northeastern.edu/",
+        target: "_blank"
+      Boston, Massachusetts
 
   %div.w-75.mx-auto
+    %h6
+      Dissertation
+    %p
+      Doctor of Computer Science (DCS), Colorado Technical University
+    %p
+      "A Rule-Based Expert System for the Diagnosis of Convergence Problems in Circuit Simulation"
+      Featuring SOAR: Simulation Output Analysis and Recommendations - A
+      = link_to "Ruby on Rails", "http://rubyonrails.org/", target: "_blank"
+      and
+      = link_to "CLIPS Expert System", "http://www.clipsrules.net/", target: "_blank"
+      Integration
+
+  %div.w-75.mx-auto
+    %a.badge.badge-info{ "data-toggle": "collapse", "href": "#academic-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+      read more/less...
     %div.collapse#academic-text
       %div.card.card-body.bg-light.border-light
-        %h3.card-feature Academic!
-        %p.text-justify
-          = lorem.sentences 4
-        %p.text-justify
-          = lorem.sentences 4
-
+        %h6.card-feature
+          Dissertation Documents
+        %p
+          = link_to "Dissertation Defense",
+            "/files/Defense_with_Notes.pdf.gz",
+            target: "_blank"
+          Held on December 19th, 2005
+          %br
+          = link_to "Abstract", "/files/Abstract.pdf.gz", target: "_blank"
+          %br
+          = link_to "Dissertation Acknowledgements Page", "/files/Acknowledgments.pdf.gz", target: "_blank"
+          %br
+          The dissertation is approved, and is available from
+          = link_to "UMI",
+            "http://dissexpress.umi.com/dxweb#search?&query=AU%28Lehman%29%20AND%20TI%28A%20Rule%29",
+            target: "_blank"
+          publication number 3209104
