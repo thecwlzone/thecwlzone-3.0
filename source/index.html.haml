@@ -1,7 +1,9 @@
 ---
 title: Welcome to The CWL Zone
 ---
-%div.container
+= partial "business_card"
+
+%div.container.mt-3
   %div
     %p.font-weight-bold
       Welcome to my web site...
@@ -38,4 +40,7 @@ title: Welcome to The CWL Zone
     %button.close{"aria-label": "Close", "data-dismiss": "alert", type: "button"}
       %span{"aria-hidden": "true"}Dismiss
 
+
+:javascript
+  $('#home-tab').addClass('active');
 

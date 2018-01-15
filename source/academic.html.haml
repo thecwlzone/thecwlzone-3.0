@@ -1,49 +1,39 @@
----
-title: Academic
----
-%div.container
+%div#academic-tab.container.mt-3
   %div.w-75.mx-auto
-    %h6 Alma Maters
-
-    %p
-      Doctor of Computer Science
-      = link_to "Colorado Technical University",
-        "https://www.coloradotech.edu/colorado-springs",
-        target: "_blank"
-      Colorado Springs, Colorado
-
-    %p
-      Master of Science, Computer Science
-      = link_to "Colorado Technical University",
-        "https://www.coloradotech.edu/colorado-springs",
-        target: "_blank"
-      Colorado Springs, Colorado
-
-    %p
-      Bachelor of Science, Electrical Engineering
-      = link_to "Northeastern University",
-        "http://www.northeastern.edu/",
-        target: "_blank"
-      Boston, Massachusetts
+    %div.card.card-body.bg-light.border-light
+      %h6.card-feature
+        Alma Maters
+      %p
+        Doctor of Computer Science
+        = link_to "Colorado Technical University",
+          "https://www.coloradotech.edu/colorado-springs",
+          target: "_blank"
+        Colorado Springs, Colorado
+      %p
+        Master of Science, Computer Science
+        = link_to "Colorado Technical University",
+          "https://www.coloradotech.edu/colorado-springs",
+          target: "_blank"
+        Colorado Springs, Colorado
+      %p
+        Bachelor of Science, Electrical Engineering
+        = link_to "Northeastern University",
+          "http://www.northeastern.edu/",
+          target: "_blank"
+        Boston, Massachusetts
 
   %div.w-75.mx-auto
-    %h6
-      Dissertation
-    %p
-      Doctor of Computer Science (DCS), Colorado Technical University
-    %p
-      "A Rule-Based Expert System for the Diagnosis of Convergence Problems in Circuit Simulation"
-      Featuring SOAR: Simulation Output Analysis and Recommendations - A
-      = link_to "Ruby on Rails", "http://rubyonrails.org/", target: "_blank"
-      and
-      = link_to "CLIPS Expert System", "http://www.clipsrules.net/", target: "_blank"
-      Integration
-
-  %div.w-75.mx-auto
-    %a.badge.badge-info{ "data-toggle": "collapse", "href": "#academic-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
-      read more/less...
+    %a.badge.badge-info{ "data-toggle": "collapse", "href": "#academic-text", "role": "button", "aria-expanded": "false", "aria-controls": "academic-text" }
+      Doctoral Dissertation
     %div.collapse#academic-text
       %div.card.card-body.bg-light.border-light
+        %p
+          "A Rule-Based Expert System for the Diagnosis of Convergence Problems in Circuit Simulation"
+          Featuring SOAR: Simulation Output Analysis and Recommendations - A
+          = link_to "Ruby on Rails", "http://rubyonrails.org/", target: "_blank"
+          and
+          = link_to "CLIPS Expert System", "http://www.clipsrules.net/", target: "_blank"
+          Integration
         %h6.card-feature
           Dissertation Documents
         %p
@@ -61,3 +51,6 @@ title: Academic
             "http://dissexpress.umi.com/dxweb#search?&query=AU%28Lehman%29%20AND%20TI%28A%20Rule%29",
             target: "_blank"
           publication number 3209104
+
+:javascript
+  $('#academic-tab').addClass('active');

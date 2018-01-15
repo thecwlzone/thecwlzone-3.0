@@ -1,19 +1,17 @@
----
-title: About
----
-%div.container
-  %div
-    %p.font-weight-bold
-      About...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#about-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
-        read more/less...
+%div#about-tab.container.mt-3
+  %div.w-75.mx-auto
+    %h5  About
+
+    %a.badge.badge-info{ "data-toggle": "collapse", "href": "#about-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+      read more/less...
 
   %div.w-75.mx-auto
     %div.collapse#about-text
       %div.card.card-body.bg-light.border-light
-        %h3.card-feature About!
         %p.text-justify
           = lorem.sentences 5
         %p.text-justify
           = lorem.sentences 14
 
+:javascript
+  $('#about-tab').addClass('active');

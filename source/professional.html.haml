@@ -1,18 +1,17 @@
----
-title: Professional
----
-%div.container
-  %div
-    %p.font-weight-bold
-      Professional...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#professional-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
-        read more/less...
-
+%div#professional-tab.container.mt-3
   %div.w-75.mx-auto
+    %h5  Professional
+
+    %a.badge.badge-info{ "data-toggle": "collapse", "href": "#professional-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+      read more/less...
+
     %div.collapse#professional-text
       %div.card.card-body.bg-light.border-light
-        %h3.card-feature Professional!
         %p.text-justify
           = lorem.sentences 4
         %p.text-justify
           = lorem.sentences 4
+
+:javascript
+  $('#professional-tab').addClass('active');
+
