@@ -2,9 +2,82 @@
 title: De'Lynne Salley Gallery
 ---
 
-%h1
-  De'Lynne Salley Gallery
+%div.text-center
+  %h1
+    De'Lynne Salley Gallery
+  %h4
+    Colorado Landscapes: Paintings in Oil
+  %p
+    %a{"href": "mailto:oilpaintings@thecwlzone.com"}Email
+    me for more information. Thanks!
 
+%div#gallery-tab.container.mt-3
+  %div#carouselDelynneGallery.carousel.slide{"data-ride": "carousel", "data-pause": "hover"}
+    %ol.carousel-indicators
+      %li.active{"data-slide-to" => "0", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "1", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "2", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "3", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "4", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "5", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "6", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "7", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "8", "data-target" => "#carouselDelynneGallery"}
+      %li{"data-slide-to" => "9", "data-target" => "#carouselDelynneGallery"}
+
+    .carousel-inner
+      .carousel-item.active
+        %img.d-block.w-30.img-fluid{alt: "As_Above_So_Below", src: "/images/gallery/As_Above_So_Below.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            As Above So Below
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Far_Away_Reflections", src: "/images/gallery/Far_Away_Reflections.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Far Away Reflections
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Going-Going", src: "/images/gallery/Going-Going.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Going Going
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Highway_Scapes", src: "/images/gallery/Highway_Scapes.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Highway Scapes
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Jims_Ranch", src: "/images/gallery/Jims_Ranch.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Jim's Ranch
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Landscape-9", src: "/images/gallery/Landscape-9.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Landscape 9
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Off_Murphy", src: "/images/gallery/Off_Murphy.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Off Murphy
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Too_Much_Snow", src: "/images/gallery/Too_Much_Snow.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Too Much Snow
+      .carousel-item
+        %img.d-block.w-30.img-fluid{alt: "Turquoise_Skies", src: "/images/gallery/Turquoise_Skies.jpg"}
+        %div.carousel-caption.d-none.d-md-block
+          %p
+            Turquoise Skies
+
+  %a.carousel-control-prev{"data-slide" => "prev", :href => "#carouselDelynneGallery", :role => "button"}
+    %span.carousel-control-prev-icon{"aria-hidden" => "true"}
+    %span.sr-only Previous
+  %a.carousel-control-next{"data-slide" => "next", :href => "#carouselDelynneGallery", :role => "button"}
+    %span.carousel-control-next-icon{"aria-hidden" => "true"}
+    %span.sr-only Next
 
 :javascript
   $('#gallery-tab').addClass('active');
