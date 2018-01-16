@@ -1,7 +1,7 @@
 ---
 title: Welcome to The CWL Zone
 ---
-= partial "business_card"
+= partial "/partials/business_card"
 
 %div.container.mt-3
   %div
@@ -10,14 +10,7 @@ title: Welcome to The CWL Zone
       %a.badge.badge-info{ "data-toggle": "collapse", "href": "#welcome-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
         read more/less...
 
-  %div.w-75.mx-auto
-    %div.collapse#welcome-text
-      %div.card.card-body.bg-light.border-light
-        %h3.card-feature Welcome!
-        %p.text-justify
-          = lorem.sentences 15
-        %p.text-justify
-          = lorem.sentences 4
+    = partial "/partials/welcome_content"
 
   %div.alert.alert-light.alert-dismissible.fade.show{"role": "alert"}
     %p.alert-heading

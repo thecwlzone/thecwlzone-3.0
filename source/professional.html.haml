@@ -1,16 +1,33 @@
 %div#professional-tab.container.mt-3
-  %div.w-75.mx-auto
-    %h5  Professional
+  %div
+    %p.font-weight-bold
+      Current Employment
+    %p
+      My LinkedIn profile contains a complete summary of my career path.
+    %p
+      I am a Senior Engineer at the Comcast Technology and Product Development organization (T&P), where I am building internal web tools using Ruby on Rails. Complete details on the Home page.
 
-    %a.badge.badge-info{ "data-toggle": "collapse", "href": "#professional-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
-      read more/less...
+  %div
+    %p.font-weight-bold
+      Previous Web Site Development
+      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#professional-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+        read more/less...
 
+  %div
     %div.collapse#professional-text
       %div.card.card-body.bg-light.border-light
-        %p.text-justify
-          = lorem.sentences 4
-        %p.text-justify
-          = lorem.sentences 4
+        %p.font-weight-bold
+          ProfitStreams
+        %p
+          Alas, ProfitStreams is no longer in business, the LinkedIn URL is here. As Senior Software Developer at ProfitStreams I built web applications for the hospitality industry, with a focus on development of an Online Ordering application for restaurants. The technology was Rails 2.3.5 (with a migration plan in place to Rails 3.1) integrated with a Java-based API (driven by Talend) that merged the application data into a unified backend. Clients could log into one central location to see customer data and set up Twitter and Facebook marketing campaigns, among other things.
+        %p.font-weight-bold
+          Internet Pawn, Inc, now dba Pawngo
+        %p
+          Internet Pawn and Boomerang Lending have merged into Pawngo. The previous sites were all Rails 2.3.x The Boomerang Lending site was Rails 2.3.8 using Refinery CMS for the backend admin services. I did all the Rails development and also wore the DevOps hat.
+        %p.font-weight-bold
+          Boecore
+        %p
+          Boecore does business as a DoD contractor, and I helped develop BoBCAT - a Rails 2 application for automating and tracking the DIACAP compliance and Information Assurance activities required by the Missile Defense Agency. This was a classified project.
 
 :javascript
   $('#professional-tab').addClass('active');
