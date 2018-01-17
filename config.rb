@@ -6,6 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :directory_indexes
+activate :vcs_time
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/

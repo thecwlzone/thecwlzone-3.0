@@ -12,24 +12,33 @@ title: About Me
     %div.collapse.show#about-intro-text
       %div.card.card-body.bg-light.border-light
         %p
-          I’ve been doing Rails development full time since 2009, and I’ve been working with the Ruby language since 2005.
+          I’ve been doing Rails development full time since 2009, and I’ve been working with the
+          = link_to "Ruby", "https://www.ruby-lang.org/en/", target: "_blank"
+          language since 2005.
         %p
-          Prior to that, I spent 27 years in the semiconductor industry at Ford Microelectronics, Cypress Semiconductor and IBM. I was a DevOps before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the Electronic Design Automation tools vital for the creation of VLSI circuits.
+          Prior to that, I spent 27 years in the semiconductor industry at Ford Microelectronics,
+          = link_to "Cypress Semiconductor", "http://www.cypress.com/", target: "_blank"
+          and
+          = link_to "IBM", "https://www.ibm.com/us-en/", target: "_blank"
+          &#46; I was a DevOps before the buzzword was invented: doing a combination of software development and system administration, as well as acting as the local SME for the Electronic Design Automation tools vital for the creation of VLSI circuits.
         %p
-          My Ford career in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn’t get much better than that. We were designing first generation automotive electronics during the week and running Mustangs and T-birds in SCCA Solo II competition on the weekends. Motor Head Nirvana.
-        %img.img-fluid{"src": "/images/about/scca.jpg", "alt": "scca"}
+          My Ford career in the 1980s was great fun. A Motor City exile working for a car company in Colorado - it doesn’t get much better than that. We were designing first generation automotive electronics during the week and running Mustangs and T-birds in
+          = link_to "SCCA", "https://www.scca.com/", target: "_blank"
+          Solo II competition on the weekends. Motor Head Nirvana.
+        %img.img-fluid{"src": "/images/about/scca.jpg", "style": "width: 50%; height: auto;", "alt": "scca"}
         %p
           But all things come to an end, and when I ran out of interesting things to do at Ford I jumped ship to a VLSI design startup, that went under the following year. The design team was picked up by Cypress, and I spent 14 years at the Colorado Springs Design Center where we designed static RAMs that generated over $1.5 billion in revenue for the company.
-        %img.img-fluid{"src": "/images/about/Cypress_72MbitQDRII_SRAM.jpg", "alt": "chip"}
+        %img.img-fluid{"src": "/images/about/Cypress_72MbitQDRII_SRAM.jpg", "style": "width: 50%; height: auto;", "alt": "chip"}
         %p
           The Dot Bomb crash of 2000 seriously affected the semiconductor industry, and after dodging more layoffs than I care to remember, my number came up in 2005, and that was the end of the road with Cypress.
         %p
-          The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable “second career” choice. And that’s where I am today
+          The crew that was cut from Cypress represented a huge amount of VLSI expertise, and we persuaded IBM to let us set up a new VLSI design center in Colorado Springs. Yet another semiconductor market pullback ultimately killed that idea, and as an unwilling participant in the IBM 2009 layoffs, I decided it was long past time to stop chasing electrons. Fortunately, I had been hacking on Rails web sites and doing Ruby programming for awhile, so the transition to Rails web developer was a viable “second career” choice. And that’s where I am today.
         %img.img-thumbnail{"src": "/images/about/cwl_gravatar.jpeg",
           "style": "width: 80px; height: 80px;",
           "alt": "gravatar"}
         %p
-          If you’re interested in a more “formal” career timeline, my LinkedIn profile has all the dates and details. Cheers!
+          If you’re interested in a more “formal” career timeline, my
+          = link_to "LinkedIn Profile", "https://www.linkedin.com/in/christopherwlehman", target: "_blank"has all the dates and details. Cheers!
 
   %div
     %p.font-weight-bold
@@ -41,30 +50,48 @@ title: About Me
       %p
         This is version 3.0 of my web site.
       %p
-        For this incarnation, I decided to use Middleman, a Ruby-based static site generator. I use Middleman to build content, run the content through the Middleman compiler and then push the generated HTML pages to my site’s public directory.
+        For this incarnation, I decided to use
+        = link_to "Middleman", "https://middlemanapp.com/", target: "_blank"
+        &#44; a Ruby-based static site generator. I use Middleman to build content, run the content through the Middleman compiler and then push the generated HTML pages to my site’s public directory.
       %p
         I use a number of web tools to create various effects on the site. See the “Generated by” section of the footnotes at the bottom of this page for a complete list.
       %p
-        I have decided to continue to use the Wordpress blog tool even though Middleman has some very powerful built-in blogging features. Wordpress is a hugely popular web framework, it suits my purposes, and there are WP CSS themes and plugins galore.
+        I have decided to continue using the
+        = link_to "Wordpress", "https://wordpress.com/", target: "_blank"
+        blog tool even though Middleman has some very powerful built-in blogging features. Wordpress is a hugely popular web framework, it suits my purposes, and there are WP
+        = link_to "CSS themes", "https://wordpress.org/themes/", target: "_blank"
+        and
+        = link_to "plugins", "https://wordpress.org/plugins/", target: "_blank"
+        galore.
       %p
-        Web site hosting is done by NearlyFreeSpeech.net. NFSN is a no-frills, DIY metered service web hosting company. I’ve been with them since 2004. It costs me about $15 a year to run the site, plus another $10 for annual domain registration. It doesn’t get any cheaper. The “down side”: you get to do everything yourself, so you need to be a combination web developer and sys admin.
+        Web site hosting is done by
+        = link_to "NearlyFreeSpeech.net", "https://www.nearlyfreespeech.net/", target: "_blank"
+        &#46; NFSN is a no-frills, DIY metered service web hosting company. I’ve been with them since 2004. It costs me about $15 a year to run the site, plus another $10 for annual domain registration. It doesn’t get any cheaper. The “down side”: you get to do everything yourself, so you need to be a combination web developer and sys admin.
       %p
         Site photography and gallery images by De’Lynne Salley, all rights reserved.
       %p
-        The source code for this site is publicly available at my GitHub location. Have fun.
+        The source code for this site is publicly available at my
+        = link_to "GitHub", "https://www.github.com/thecwlzone"
+        location. Have fun.
       %p
         This site has been tested against the following web browsers:
       %ul
         %li
-          Safari Version 11.02
+          = link_to "Safari", "http://browserwin.com/safari/", target: "_blank"
+          Version 11.02
         %li
-          Firefox 57.0.4
+          = link_to "Firefox", "https://www.mozilla.org/en-US/firefox/new/", target: "_blank"
+          57.0.4 - I use Firefox and its
+          = link_to "developer version", "https://developer.mozilla.org/en-US/Firefox/Developer_Edition", target: "_blank"
         %li
+          = link_to "Microsoft", "https://www.microsoft.com/en-us/", target: "_blank"
           Internet Explorer 11, probably works OK with version 10 as well.
       %p
-        I do not use Google Chrome, I do not care to have my keystrokes
-        %a{"href": "https://www.pcworld.com/article/2079183/nsa-caught-with-its-hand-in-googles-browser-cookie-jar.html"}
-          sent to the NSA.
+        I do not use
+        = link_to "Google Chrome", "https://www.google.com/chrome/index.html", target: "_blank"
+        &#46; I do not care to have my keystrokes
+        = link_to "sent to the NSA", "https://www.pcworld.com/article/2079183/nsa-caught-with-its-hand-in-googles-browser-cookie-jar.html", target: "_blank"
+        &#46;
 
   %div
     %p.font-weight-bold
@@ -74,14 +101,15 @@ title: About Me
   %div.collapse#about-ack-text
     %div.card.card-body.bg-light.border-light
       %p
-        Real Men give credit where credit is due. Thanks to:
+        = link_to "Real Men", "https://en.wikipedia.org/wiki/Real_Men_Don%27t_Eat_Quiche", target: "_blank"
+        give credit where credit is due. Thanks to:
       %ul
         %li
-          all of my professional colleagues, past and present, who are too numerous to mention. I make it a point to surround myself with people who are smarter than I am, which forces me to go the extra mile.
+          all of my professional colleagues, past and present, who are too numerous to mention. Thanks for your support and all the happy hours (pun intended).
         %li
           the Middleman team for putting together a very nice Ruby-based static site generator. It’s been fun. Thanks!
         %li
-          I'm no longer a fan of Twitter (or any social media to be honest), but the Twiter Bootstrap team has done a great job in building a remarkable CSS styling framework for those of us with no sense of aesthetics. If the site looks good, it's due to Bootstrap.
+          I'm no longer a fan of Twitter (or any social media to be honest), but the Twitter Bootstrap team has done a great job in building a remarkable CSS styling framework for those of us with no sense of aesthetics. If the site looks good, it's due to Bootstrap.
         %li
           my wife De’Lynne who is a great photographer and artist. All the images on the site and the oil paintings in the gallery are her creations.
 
