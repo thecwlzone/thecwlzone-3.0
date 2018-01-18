@@ -17,6 +17,8 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/gallery.html", layout: "gallery"
 
+set :build_dir, "build/thecwlzone-3.0"
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
