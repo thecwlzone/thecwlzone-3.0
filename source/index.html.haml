@@ -21,6 +21,8 @@ title: Welcome to The CWL Zone
   %div.alert.alert-light.alert-dismissible.fade.show{"role": "alert"}
     %p.alert-heading
       %u Site Information
+    %button.close{"aria-label": "Close", "data-dismiss": "alert", type: "button"}
+      %span{"aria-hidden": "true"}Dismiss
     %p.small
       %b Content:
       This site is built with
@@ -42,10 +44,6 @@ title: Welcome to The CWL Zone
     %p.small
       %b Disclaimer:
       The content of this site is my own, and it does not represent any past, present or future employer's positions, strategies or opinions
-    %button.close{"aria-label": "Close", "data-dismiss": "alert", type: "button"}
-      %span{"aria-hidden": "true"}Dismiss
-
 
 :javascript
   $('#home-tab').addClass('active');
-
