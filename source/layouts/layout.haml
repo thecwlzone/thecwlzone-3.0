@@ -12,6 +12,8 @@
       crossorigin: "anonymous"
     = stylesheet_link_tag "wired"
     = stylesheet_link_tag "sticky-footer-navbar"
+    / EU cookie consent
+    = stylesheet_link_tag "cookiealert"
 
     / jQuery first, then Tether, then Bootstrap JS.
     = javascript_include_tag "https://code.jquery.com/jquery-3.2.1.slim.min.js",
@@ -20,10 +22,17 @@
     = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
       integrity: "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q",
       crossorigin: "anonymous"
+
+    / EU cookie consent
+    / https://www.jqueryscript.net/other/Cookie-Consent-Notice-Bootstrap-4-cookieAlert.html
+    = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"
+
     = javascript_include_tag "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
       integrity: "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl",
       crossorigin: "anonymous"
     = javascript_include_tag "site"
+    / EU cookie consent
+    = javascript_include_tag "cookiealert-dependencies"
 
     %link{:href => "/images/icon.png", :rel => "icon", :type => "image/png"}
 
@@ -31,4 +40,5 @@
     = partial "/partials/header"
     = yield
     = partial "/partials/footer"
-
+    / EU cookie consent
+    = partial "/partials/eu_cookie_consent"
