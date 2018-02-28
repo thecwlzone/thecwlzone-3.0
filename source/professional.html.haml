@@ -35,111 +35,127 @@ title: Professional Background
       %a.badge.badge-info{ "data-toggle": "collapse", "href": "#professional-skills-text", "role": "button", "aria-expanded": "false", "aria-controls": "professional-text" }
         read more/less...
 
-  %div
-    %div.collapse#professional-skills-text
-      %div.card.card-body.bg-light.border-light
-        %div.container-fluid
-          %div.row
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "http://rubyonrails.org/"}Rails
-              %p.text-sm-center.small.d-none.d-sm-block
-                Full time Rails developer since 2009
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://www.ruby-lang.org/"}Ruby
-              %p.text-sm-center.small.d-none.d-sm-block
-                Switched from Perl to Ruby in 2005
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://rubygems.org/"} RubyGems
-              %p.text-sm-center.small.d-none.d-sm-block
-                Six gems and counting, all proprietary...
-          %div.row
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://git-scm.com/"}Git
-              %p.text-sm-center.small.d-none.d-sm-block
-                Version control
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://github.com/thecwlzone"}GitHub
-              %p.text-sm-center.small.d-none.d-sm-block
-                Also other proprietary repos
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://github.com/puma/puma"}puma,
-                %a.text-primary{"href": "https://www.nginx.com"}nginx,
-                %a.text-primary{"href": "https://bogomips.org/unicorn/"}Unicorn
-              %p.text-sm-center.small.d-none.d-sm-block
-                Web server engines
-          %div.row
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://www.mysql.com/"}MySQL
-              %p.text-sm-center.small.d-none.d-sm-block
-                Relational database
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://www.mongodb.com/"}MongoDB
-              %p.text-sm-center.small.d-none.d-sm-block
-                The NoSQL database
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://www.postgresql.org/"}PostgreSQL
-              %p.text-sm-center.small.d-none.d-sm-block
-                Open source relational database
-          %div.row
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://www.javascript.com/"}Javascript
-              %p.text-sm-center.small.d-none.d-sm-block
-                But I'm mostly a backend developer...
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://getbootstrap.com/"}Bootstrap
-              %p.text-sm-center.small.d-none.d-sm-block
-                My web site is based upon Bootstrap 4
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://middlemanapp.com/"}Middleman
-              %p.text-sm-center.small.d-none.d-sm-block
-                My web site is built with Middleman
-          %div.row
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://jenkins.io/index.html"}Jenkins
-              %p.text-sm-center.small.d-none.d-sm-block
-                For
-                %a.text-sm{"href": "https://en.wikipedia.org/wiki/Continuous_integration"}Continous Integration
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "http://capistranorb.com/"}Capistrano
-              %p.text-sm-center.small.d-none.d-sm-block
-                For deployment
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://pivotal.io/platform"}Cloud Foundry
-              %p.text-sm-center.small.d-none.d-sm-block
-                For
-                %a.text-sm{"href": "https://en.wikipedia.org/wiki/Virtual_machine"}VM
-                deployment
-          %div.row
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "http://www.vim.org/"}vim
-              %p.text-sm-center.small.d-none.d-sm-block
-                Plus the usual Ruby/Rails plugins. 30+ years using vim, I can't switch now!
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://github.com/tmux/tmux/wiki"}tmux
-              %p.text-sm-center.small.d-none.d-sm-block
-                Essential if you are working on multiple projects
-            %div.col.border
-              %p.text-center
-                %a.text-primary{"href": "https://www.gnu.org/software/bash/"}bash
-              %p.text-sm-center.small.d-none.d-sm-block
-                The de facto shell for Mac users. I was a former csh user as well.
+  %div.bg-light.border-light
+    %div.collapse#professional-skills-text.container.mb-3
+      %div.card-deck
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "http://rubyonrails.org/"}Rails
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Full time Rails developer since 2009
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://www.ruby-lang.org/"}Ruby
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Switched from Perl to Ruby in 2005
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://rubygems.org/"} RubyGems
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Six gems and counting, all proprietary...
+      %div.card-deck
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://git-scm.com/"}Git
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Version control
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://github.com/thecwlzone"}GitHub
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Also other proprietary repos
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://github.com/puma/puma"}puma,
+              %a.card-text.text-primary{"href": "https://www.nginx.com"}nginx,
+              %a.card-text.text-primary{"href": "https://bogomips.org/unicorn/"}Unicorn
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Web server engines
+      %div.card-deck
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://www.mysql.com/"}MySQL
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Relational database
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://www.mongodb.com/"}MongoDB
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              The NoSQL database
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://www.postgresql.org/"}PostgreSQL
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Open source relational database
+      %div.card-deck
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://www.javascript.com/"}Javascript
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              But I'm mostly a backend developer...
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://getbootstrap.com/"}Bootstrap
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              My web site is based upon Bootstrap 4
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://middlemanapp.com/"}Middleman
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              My web site is built with Middleman
+      %div.card-deck
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://jenkins.io/index.html"}Jenkins
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              For
+              %a.card-text.text-sm{"href": "https://en.wikipedia.org/wiki/Continuous_integration"}Continous Integration
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "http://capistranorb.com/"}Capistrano
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              For deployment
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://pivotal.io/platform"}Cloud Foundry
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              For
+              %a.card-text.text-sm{"href": "https://en.wikipedia.org/wiki/Virtual_machine"}VM
+              deployment
+      %div.card-deck
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "http://www.vim.org/"}vim
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Plus the usual Ruby/Rails plugins. 30+ years using vim, I can't switch now!
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://github.com/tmux/tmux/wiki"}tmux
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              Essential if you are working on multiple projects
+        %div.card.mb-1
+          %div.card-body
+            %p.card-text.text-center
+              %a.card-text.text-primary{"href": "https://www.gnu.org/software/bash/"}bash
+            %p.card-text.text-sm-center.small.d-none.d-sm-block
+              The de facto shell for Mac users. I was a former csh user as well.
 
   %div
     %div.text-center
