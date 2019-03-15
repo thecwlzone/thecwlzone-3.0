@@ -7,6 +7,14 @@ title: Welcome to The CWL Zone
   %div
     %p.font-weight-bold
       Current employment...
+      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#retirement-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+        read more/less...
+
+    = partial "/partials/retirement_content"
+
+  %div
+    %p.font-weight-bold
+      Former employment...
       %a.badge.badge-info{ "data-toggle": "collapse", "href": "#welcome-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
         read more/less...
 
