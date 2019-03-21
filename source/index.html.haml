@@ -20,6 +20,14 @@ title: Welcome to The CWL Zone
 
     = partial "/partials/welcome_content"
 
+  %div
+    %p.font-weight-bold
+      Other Stuff
+      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#other-text", "role": "button", "aria-expanded": "false", "aria-controls": "other-text" }
+        read more/less...
+
+    = partial "/partials/other_content"
+
   %div.text-center
     %img.img-fluid{"src": "/images/co_landscapes/homestead_park.jpg",
                            "alt": "homestead ranch"}
