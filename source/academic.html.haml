@@ -3,12 +3,10 @@ title: Academic Background
 ---
 
 %div#academic-tab.container.mt-3
+  - random_image = generate_random_image
   %div.text-center
-    %img.img-fluid{"src": "/images/uk_landscapes/caernarfon-castle-uk.jpg",
-                           "alt": "Caernarfon Castle, North Wales, UK"}
-    %p.figure-caption
-      Caernarfon Castle, North Wales, UK
-      
+    %img.img-fluid{"src": "/images/randomized/#{random_image}",
+                           "alt": "random_image"}
   %br
 
   %div
@@ -72,11 +70,9 @@ title: Academic Background
 
   %br
 
+  - random_image = generate_random_image
   %div.text-center
-    %img.img-fluid{"src": "/images/uk_landscapes/edinburgh-scotland-uk.jpg",
-                           "alt": "Edinburgh, Scotland, UK"}
-    %p.figure-caption
-      Edinburgh, Scotland, UK
-
+    %img.img-fluid{"src": "/images/randomized/#{random_image}",
+                           "alt": "random_image"}
 :javascript
   $('#academic-tab').addClass('active');

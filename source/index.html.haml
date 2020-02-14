@@ -28,11 +28,10 @@ title: Welcome to The CWL Zone
 
     = partial "/partials/other_content"
 
+  - random_image = generate_random_image
   %div.text-center
-    %img.img-fluid{"src": "/images/co_landscapes/homestead_park.jpg",
-                           "alt": "homestead ranch"}
-    %p.figure-caption
-      Homestead Ranch Park, Peyton, Colorado
+    %img.img-fluid{"src": "/images/randomized/#{random_image}",
+                           "alt": "random_image"}
 
   %div.alert.alert-light.alert-dismissible{"role": "alert"}
     %p.alert-heading

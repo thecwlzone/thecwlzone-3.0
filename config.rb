@@ -42,6 +42,11 @@ set :build_dir, "build/thecwlzone-3.0"
 #     'Helping'
 #   end
 # end
+helpers do
+  def generate_random_image
+    `ls -1 source/images/randomized`.split("\n").sample
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
