@@ -4,6 +4,11 @@
 
 None. `git clone` to copy the code
 
+## Image generation
+
+Running `bundle exec middleman build` compiles the static HTML pages
+with random images selected from source/images/randomized - See config.rb
+
 ## License
 
 [Creative Commons Attribution-Share Alike 3.0 USA](http://creativecommons.org/licenses/by-sa/3.0/us/)
