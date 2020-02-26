@@ -4,8 +4,6 @@
 
 None. `git clone` to copy the code
 
-Note: Middleman 4.3 build and server methods throw warnings when using Ruby 2.7
-
 ## Image generation
 
 Running `bundle exec middleman build` compiles the static HTML pages
