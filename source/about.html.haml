@@ -13,7 +13,7 @@ title: About Me
       %p
         This is version 3.0 of my web site.
       %p
-        For this incarnation, I decided to use
+        For this version, I decided to use
         = link_to "Middleman", "https://middlemanapp.com/", target: "_blank"
         &#44; a Ruby-based static site generator. I use Middleman to build content, run the content through the Middleman compiler and then push the generated HTML pages to my site’s public directory.
       %p
@@ -31,13 +31,13 @@ title: About Me
         = link_to "NearlyFreeSpeech.net", "https://www.nearlyfreespeech.net/", target: "_blank"
         &#46; NFSN is a no-frills, DIY metered service web hosting company. I’ve been with them since 2004. It costs me about $40 a year to run the site, including the annual domain registration fee. It doesn’t get any cheaper. The “down side”: you get to do everything yourself, so you need to be a combination web developer and sys admin.
       %p
-        The pictures on the site are from cool places we have visited at various times including Portugal, Spain, UK, Vancouver and Victoria BC, Oregon, Florida, Georgia, South Carolina and Colorado. Site photography and
+        The pictures on the site are from cool places we have visited at various times - Portugal, Spain, UK, Vancouver and Victoria BC, Oregon, Florida, Georgia, South Carolina and Colorado. Site photography and
         = link_to "gallery images", "/gallery"
         by De’Lynne Salley, all rights reserved.
       %p
         The source code for this site is publicly available at my
         = link_to "GitHub", "https://www.github.com/thecwlzone", target: "_blank"
-        location. "As-is", have fun.
+        location.
       %p
         This site has been tested against the following web browsers:
       %ul
@@ -79,8 +79,6 @@ title: About Me
         read more/less...
   %div.collapse#privacy-text
     %div.card.card-body.bg-light.border-light.text-justify
-      %p
-        Here is some information about cookies and privacy on the site:
       %ol
         %li
           I do not collect any personal or financial information at this site.
@@ -104,17 +102,27 @@ title: About Me
   %div.collapse#about-ack-text
     %div.card.card-body.bg-light.border-light.text-justify
       %p
-        = link_to "Real Men", "https://en.wikipedia.org/wiki/Real_Men_Don%27t_Eat_Quiche", target: "_blank"
+        = link_to "Real Men",
+          "https://en.wikipedia.org/wiki/Real_Men_Don%27t_Eat_Quiche",
+          target: "_blank"
         give credit where credit is due. Thanks to:
       %ul
         %li
           all of my professional colleagues over the past 40 years, who are too numerous to mention. Thanks for your support and for all the happy hours (pun intended).
         %li
-          the Middleman team for putting together a very nice Ruby-based static site generator. It’s been fun. Thanks!
+          the
+          = link_to "Middleman",
+            "https://middlemanapp.com/",
+            target: "_blank"
+          team for putting together a very nice Ruby-based static site generator.
         %li
           I'm no longer a
           = link_to "fan of Twitter", "http://www.thecwlzone.com/blog/why-i-am-leaving-twitter-behind/", target: "_blank"
-          (or any social media to be honest), but the Twitter Bootstrap team has done a great job in building a remarkable CSS styling framework for those of us with no sense of aesthetics. If the site looks good, it's due to Bootstrap.
+          (or any social media to be honest), but the
+          = link_to "Twitter Bootstrap",
+            "https://getbootstrap.com/",
+            target: "_blank"
+          team has done a great job in building a remarkable CSS styling framework for those of us with no sense of aesthetics. If the site looks good, it's due to Bootstrap.
         %li
           my wife De’Lynne who is a great photographer and artist. All of the images on the site and the oil paintings in the gallery are her creations.
 
