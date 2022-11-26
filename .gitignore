@@ -5,3 +5,4 @@
 .ruby-version
 README.cwl
 build/
+image_container/
