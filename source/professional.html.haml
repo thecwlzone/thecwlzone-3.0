@@ -85,6 +85,8 @@ title: Professional History
 
   %div.bg-light.border-light
     %div.collapse#professional-skills-text.container.mb-3
+      %p
+        Last Updated On: 18-Feb-2023
       %div.card-deck
         %div.card.mb-1
           %div.card-body
@@ -94,7 +96,7 @@ title: Professional History
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               Full time Rails developer 2009 - 2019
               %br
-                (Rails 2.0 to Rails 5.1)
+                Current - Rails 7 and Tailwind CSS
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
@@ -105,10 +107,13 @@ title: Professional History
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
+              = link_to "Bundler", "https://bundler.io/",
+                target: "_blank", class: "card-text text-primary"
+              &#44;
               = link_to "RubyGems", "https://rubygems.org/",
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
-              Six gems and counting, all proprietary...
+              Six gems released, all proprietary...
       %div.card-deck
         %div.card.mb-1
           %div.card-body
@@ -133,7 +138,7 @@ title: Professional History
               = link_to "nginx", "https://www.nginx.com",
                 target: "_blank", class: "card-text text-primary"
               &#44;
-              = link_to "Unicorn", "https://bogomips.org/unicorn/",
+              = link_to "passenger", "https://www.phusionpassenger.com/",
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               Web server engines
@@ -148,10 +153,8 @@ title: Professional History
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
-              = link_to "MongoDB", "https://www.mongodb.com/",
-                target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
-              The NoSQL database
+              This card is intentially left blank...
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
@@ -163,7 +166,7 @@ title: Professional History
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
-              = link_to "Javascript", "https://www.javascript.com/",
+              = link_to "Tailwind CSS", "https://tailwindcss.com/",
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               But I'm mostly a backend developer...
@@ -185,31 +188,6 @@ title: Professional History
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
-              = link_to "Jenkins", "https://jenkins.io/index.html",
-                target: "_blank", class: "card-text text-primary"
-            %p.card-text.text-sm-center.small.d-none.d-sm-block
-              For
-              %a.card-text.text-sm{"href": "https://en.wikipedia.org/wiki/Continuous_integration"}Continous Integration
-        %div.card.mb-1
-          %div.card-body
-            %p.card-text.text-center
-              = link_to "Capistrano", "http://capistranorb.com/",
-                target: "_blank", class: "card-text text-primary"
-            %p.card-text.text-sm-center.small.d-none.d-sm-block
-              For deployment
-        %div.card.mb-1
-          %div.card-body
-            %p.card-text.text-center
-              = link_to "Cloud Foundry", "https://pivotal.io/platform",
-                target: "_blank", class: "card-text text-primary"
-            %p.card-text.text-sm-center.small.d-none.d-sm-block
-              For
-              %a.card-text.text-sm{"href": "https://en.wikipedia.org/wiki/Virtual_machine"}VM
-              deployment
-      %div.card-deck
-        %div.card.mb-1
-          %div.card-body
-            %p.card-text.text-center
               = link_to "neovim", "http://neovim.io/",
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
@@ -217,7 +195,7 @@ title: Professional History
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
-              = link_to "Docker", "https://www.docker.com",
+              = link_to "Docker / Docker Hub", "https://www.docker.com",
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               Container application for DevOps
