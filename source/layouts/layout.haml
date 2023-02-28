@@ -7,28 +7,28 @@
     / Use the title from a page's frontmatter if it has one
     %title= current_page.data.title || "The CWL Zone"
 
-    = stylesheet_link_tag "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css",
-      integrity: "sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l",
+    = stylesheet_link_tag "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
+      integrity: "sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65",
+      rel: "stylesheet",
       crossorigin: "anonymous"
-    -# = stylesheet_link_tag "knightone"
     = stylesheet_link_tag "zephyr"
     = stylesheet_link_tag "sticky-footer-navbar"
     / EU cookie consent
     = stylesheet_link_tag "cookiealert"
 
     / jQuery first, then Popper, then Bootstrap JS.
-    = javascript_include_tag "https://code.jquery.com/jquery-3.6.0.min.js",
-      integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
+    = javascript_include_tag "https://code.jquery.com/jquery-3.6.3.min.js",
+      integrity: "sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=",
       crossorigin: "anonymous"
-    = javascript_include_tag "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js",
-      integrity: "sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN",
+    = javascript_include_tag "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js",
+      integrity: "sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3",
       crossorigin: "anonymous"
-    = javascript_include_tag "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js",
-      integrity: "sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF",
+    = javascript_include_tag "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js",
+      integrity: "sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V",
       crossorigin: "anonymous"
     / EU cookie consent
     / https://www.jqueryscript.net/other/Cookie-Consent-Notice-Bootstrap-4-cookieAlert.html
-    = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
+    = javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"
     = javascript_include_tag "site"
     / EU cookie consent
     = javascript_include_tag "cookiealert-dependencies"

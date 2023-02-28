@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "bootstrap"
+gem "bootstrap", "~> 5.2.3"
 gem "middleman"
 gem "middleman-vcs-time"
 gem "rubocop"

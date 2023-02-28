@@ -6,8 +6,8 @@ title: Professional History
   %div
     %p.font-weight-bold
       Professional Biography...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#about-intro-text", "role": "button", "aria-expanded": "false", "aria-controls": "about-intro-text" }
-        read more/less...
+      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#about-intro-text", "role": "button", "aria-expanded": "false", "aria-controls": "about-intro-text" }
+        + -
 
   %div
     %div.collapse#about-intro-text
@@ -78,16 +78,16 @@ title: Professional History
                            "alt": "random_image"}
 
   %div{id: "skill-set"}
-    %p.font-weight-bold
+    %p.font-weight-bold.pt-2
       Skill Set...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#professional-skills-text", "role": "button", "aria-expanded": "false", "aria-controls": "professional-text" }
-        read more/less...
+      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#professional-skills-text", "role": "button", "aria-expanded": "false", "aria-controls": "professional-skills-text" }
+        + -
 
   %div.bg-light.border-light
     %div.collapse#professional-skills-text.container.mb-3
       %p
         Last Updated On: 18-Feb-2023
-      %div.card-deck
+      %div.card-group
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
@@ -114,7 +114,7 @@ title: Professional History
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               Six gems released, all proprietary...
-      %div.card-deck
+      %div.card-group
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
@@ -142,7 +142,7 @@ title: Professional History
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               Web server engines
-      %div.card-deck
+      %div.card-group
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
@@ -162,7 +162,7 @@ title: Professional History
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               Open source relational database
-      %div.card-deck
+      %div.card-group
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center
@@ -184,7 +184,7 @@ title: Professional History
                 target: "_blank", class: "card-text text-primary"
             %p.card-text.text-sm-center.small.d-none.d-sm-block
               My web site is built with Middleman
-      %div.card-deck
+      %div.card-group
         %div.card.mb-1
           %div.card-body
             %p.card-text.text-center

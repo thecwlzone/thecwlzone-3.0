@@ -8,24 +8,24 @@ title: Welcome
   %div
     %p.font-weight-bold
       Current Employment...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#retirement-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
-        read more/less...
+      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#retirement-text", "role": "button", "aria-expanded": "false", "aria-controls": "retirement-text" }
+        + -
 
     = partial "/partials/retirement_content"
 
   %div{id: "former-employment"}
     %p.font-weight-bold
       Former Employment...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#welcome-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
-        read more/less...
+      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#welcome-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+        + -
 
     = partial "/partials/welcome_content"
 
   %div
     %p.font-weight-bold
       Other Stuff...
-      %a.badge.badge-info{ "data-toggle": "collapse", "href": "#other-text", "role": "button", "aria-expanded": "false", "aria-controls": "other-text" }
-        read more/less...
+      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#other-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+        + -
 
     = partial "/partials/other_content"
 
@@ -35,10 +35,10 @@ title: Welcome
                            "alt": "random_image"}
 
   %div.alert.alert-light.alert-dismissible{"role": "alert"}
-    %p.alert-heading
+    %p.alert-heading.text-center
       %u Site Information
-    %button.close{"aria-label": "Close", "data-dismiss": "alert", type: "button"}
-      %span{"aria-hidden": "true"}Dismiss
+      %button.btn.btn-outline-info.btn-sm.close{"aria-label": "Close", "data-bs-dismiss": "alert", type: "button"}
+        %span{"aria-hidden": "true"}Dismiss
     %p.small
       %b Content:
       This site is built with
