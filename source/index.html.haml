@@ -8,7 +8,7 @@ title: Welcome
   %div
     %p.font-weight-bold
       Current Employment...
-      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#retirement-text", "role": "button", "aria-expanded": "false", "aria-controls": "retirement-text" }
+      %button.btn.btn-outline-info.btn-sm{ "style": "--bs-btn-padding-y: .05rem;", "data-bs-toggle": "collapse", "href": "#retirement-text", "role": "button", "aria-expanded": "false", "aria-controls": "retirement-text" }
         + -
 
     = partial "/partials/retirement_content"
@@ -16,7 +16,7 @@ title: Welcome
   %div{id: "former-employment"}
     %p.font-weight-bold
       Former Employment...
-      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#welcome-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+      %button.btn.btn-outline-info.btn-sm{ "style": "--bs-btn-padding-y: .05rem;", "data-bs-toggle": "collapse", "href": "#welcome-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
         + -
 
     = partial "/partials/welcome_content"
@@ -24,7 +24,7 @@ title: Welcome
   %div
     %p.font-weight-bold
       Other Stuff...
-      %button.btn.btn-outline-info.btn-sm{ "data-bs-toggle": "collapse", "href": "#other-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
+      %button.btn.btn-outline-info.btn-sm{ "style": "--bs-btn-padding-y: .05rem;", "data-bs-toggle": "collapse", "href": "#other-text", "role": "button", "aria-expanded": "false", "aria-controls": "welcome-text" }
         + -
 
     = partial "/partials/other_content"
