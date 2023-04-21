@@ -22,6 +22,6 @@
     = link_to "Wordpress", "http://wordpress.com", target: "_blank"
     %br
     Last updated
-    = current_page.mtime.strftime '%Y-%m-%d'
+    = File.mtime(current_page.source_file).strftime '%b-%d-%Y'
     %br
     %img{:alt => "Creative Commons License", :src => "/images/cc-by-sa-80x15.png", :style => "margin-top:1ex;border-width:0"}/

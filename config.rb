@@ -2,7 +2,6 @@
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :directory_indexes
-activate :vcs_time
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
