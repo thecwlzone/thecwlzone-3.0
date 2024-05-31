@@ -39,7 +39,7 @@ set :build_dir, "build/thecwlzone-3.0"
 # end
 helpers do
   def generate_random_image
-    `ls -1fA source/images/randomized`.split("\n").sample
+    `ls -1 source/images/randomized`.split("\n").sample
   end
 end
 
