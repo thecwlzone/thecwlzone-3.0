@@ -80,6 +80,44 @@ title: Professional History
       "width": "75%",
       "alt": "random_image"}
 
+  %div{id: "dev-env"}
+    %p.fw-bold.pt-2
+      My Development Environment...
+      %button.btn.btn-outline-info.btn-sm{ "style": "--bs-btn-padding-y: .05rem;", "data-bs-toggle": "collapse", "href": "#professional-dev-env", "role": "button", "aria-expanded": "false", "aria-controls": "professional-dev-env" }
+        + -
+
+  %div.bg-light.border-light
+    %div.collapse#professional-dev-env.container.mb-3
+      %p
+        My ancient MacBook Air (circa 2017, OS = 12.7.6) is no longer supported
+        by Apple or the
+        = link_to "Homebrew", "https://brew.sh/", target: "_blank"
+        team - as in no OS updates and no Brew images.
+      %p
+        I'm lusting after a
+        = link_to "System 76", "https://system76.com/laptops/darp10/configure", target: "_blank"
+        Darter Pro, but it's tough to justify a > $1.5k purchase when you're old and retired. Sigh.
+      %p
+        So - I'm currently running
+        = link_to "Ubuntu 24.04.1 LTS", "https://ubuntu.com/", target: "_blank"
+        in a
+        = link_to "VMWare Fusion", "https://www.vmware.com/", target: "_blank"
+        virtual machine on the MacBook. In addition, I decided to try
+        = link_to "Omakub", "https://omakub.org/", target: "_blank"
+        &#44;
+        = link_to "dhh's", "https://dhh.dk/", target: "_blank"
+        &#32;
+        = link_to "Rails", "https://rubyonrails.org/", target: "_blank"
+        development system for Linux. After a bit of a learning curve, I'm liking the new environment a lot.
+        I should probably create a blog entry about my findings at some point.
+
+  - random_image = generate_random_image
+  %div.text-center
+    %img.img-fluid{"src": "/images/randomized/#{random_image}",
+      "height": "auto",
+      "width": "75%",
+      "alt": "random_image"}
+
   %div{id: "skill-set"}
     %p.fw-bold.pt-2
       Skill Set...
